@@ -96,14 +96,6 @@
           <text value="Guardar"/>
         </properties>
       </component>
-      <component id="a413d" class="javax.swing.JButton" binding="limpiarButton" default-binding="true">
-        <constraints>
-          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value="Limpiar"/>
-        </properties>
-      </component>
       <component id="9b54" class="javax.swing.JLabel">
         <constraints>
           <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
@@ -126,6 +118,22 @@
         </constraints>
         <properties>
           <text value="Carrera: "/>
+        </properties>
+      </component>
+      <component id="a413d" class="javax.swing.JButton" binding="limpiarButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Limpiar"/>
+        </properties>
+      </component>
+      <component id="3ffec" class="javax.swing.JButton" binding="registrarDocenteButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Registrar Docente"/>
         </properties>
       </component>
     </children>

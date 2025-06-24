@@ -1,10 +1,10 @@
-package Formulario3y4;
+package Formulario4;
 
 import javax.swing.*;
 
-public class Main {
+public class Main2 {
     public static void main(String[] args) {
-        // Ejecutar en el hilo de eventos de Swing
+        // Ejecutar en el hilo de eventos de Swin
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
@@ -15,8 +15,8 @@ public class Main {
 
     private static void crearYMostrarGUI() {
         // Crear y configurar la ventana
-        FormularioCompras formulario = new FormularioCompras();
-        formulario.setLocationRelativeTo(null); // Centrar  pantalla
+        FormularioRegistro formulario = new FormularioRegistro();
+        formulario.setLocationRelativeTo(null); // Centrar en la pantalla
         formulario.setVisible(true);
     }
 }

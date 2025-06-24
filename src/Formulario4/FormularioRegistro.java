@@ -1,4 +1,4 @@
-package Formulario3y4;
+package Formulario4;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
