@@ -1,7 +1,7 @@
 import javax.print.attribute.standard.JobMessageFromOperator;
-import javax.swing.*;
-import java.awt.*;
-import java.awt.event.*;
+    import javax.swing.*;
+    import java.awt.*;
+    import java.awt.event.*;
 
 public class Formulario extends JFrame{
     private JPanel ventana;
