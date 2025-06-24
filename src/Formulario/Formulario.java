@@ -1,5 +1,6 @@
-import javax.print.attribute.standard.JobMessageFromOperator;
-    import javax.swing.*;
+package Formulario;
+
+import javax.swing.*;
     import java.awt.*;
     import java.awt.event.*;
 
@@ -49,5 +50,11 @@ public class Formulario extends JFrame{
                 "Teléfono: " + textTelef.getText() + "\n" +
                 "Año de nacimiento: " + textAnio.getText() + "\n" +
                 "Estatura: " + textEstatu.getText() + " metros";
+    }
+
+    public static class Main {
+        public static void main(String[] args) {
+            new Formulario();
+            }
     }
 }
