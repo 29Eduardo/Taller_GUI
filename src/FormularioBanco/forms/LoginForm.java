@@ -25,7 +25,6 @@ public class LoginForm extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setContentPane(loginPanel);
         setLocationRelativeTo(null);
-
         Color azul = new Color(0, 84, 159);
         Color gris = new Color(102, 102, 102); // Gris para textos
         Color fondoClaro = new Color(174, 214, 241);

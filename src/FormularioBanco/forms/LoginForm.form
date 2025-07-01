@@ -33,7 +33,7 @@
           <gridbag weightx="0.0" weighty="0.0"/>
         </constraints>
         <properties>
-          <text value="   - Usuario: cliente123  "/>
+          <text value="- Usuario: cliente123  "/>
         </properties>
       </component>
       <component id="b73a0" class="javax.swing.JTextArea" binding="contraseñaClave456TextArea" default-binding="true">
@@ -44,7 +44,7 @@
           <gridbag weightx="0.0" weighty="0.0"/>
         </constraints>
         <properties>
-          <text value=" - Contraseña: clave456"/>
+          <text value="-Contraseña: clave456"/>
         </properties>
       </component>
       <component id="3c1bc" class="javax.swing.JButton" binding="ingresarButton" default-binding="true">

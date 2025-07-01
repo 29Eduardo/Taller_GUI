@@ -78,7 +78,6 @@ public class BancoForm extends JFrame{
         panelSuperior.add(saldoLabel, BorderLayout.CENTER);
         panelSuperior.setOpaque(false);
         panelSuperior.setBorder(BorderFactory.createEmptyBorder(0, 0, 10, 0));
-
         JPanel panelBotones = new JPanel(new GridLayout(1, 4, 15, 0));
         panelBotones.add(depositarButton);
         panelBotones.add(retirarButton);
