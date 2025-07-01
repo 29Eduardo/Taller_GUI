@@ -16,7 +16,7 @@ public class Encuesta {
     private JButton limpiarButton;
     private JLabel resultadoLabel;
 
-    public Encuesta(){
+    public Encuesta  (){
         ButtonGroup generoGroup = new ButtonGroup();
         generoGroup.add(hombreRadio);
         generoGroup.add(mujerRadio);

@@ -1,0 +1,9 @@
+package FormularioBanco;
+
+import FormularioBanco.forms.LoginForm;
+
+public class Main {
+    public static void main(String[] args) {
+        new LoginForm();
+    }
+}
